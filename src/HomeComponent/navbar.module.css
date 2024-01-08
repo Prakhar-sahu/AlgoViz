@@ -1,0 +1,85 @@
+.navbar {
+  background-color: #cdd9e007;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%; /* Make the logo round by setting border-radius to 50% */
+}
+
+
+.brand {
+  color: #080808;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.centerLinks {
+  flex-grow: 1; /* Take available space */
+  display: flex;
+  justify-content: center;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0f0e0e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 4px;
+  padding: 8px 0;
+  text-align: left;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownLink {
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdownLink:hover {
+  background-color: #555;
+}

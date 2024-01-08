@@ -1,0 +1,42 @@
+/* Details.css */
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.card {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.bg-info {
+    background-color: #f0f3f5; /* Bootstrap info color */
+    color: #080808;
+}
+
+.bg-light {
+    /* background-color: #f8f9fa; Bootstrap light color */
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.col-3 {
+    flex: 0 0 25%; /* Adjust the width as needed */
+}
+
+.b {
+    font-weight: bold;
+}

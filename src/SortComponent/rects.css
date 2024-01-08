@@ -1,0 +1,17 @@
+/* Rects.css */
+
+.d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-end {
+    align-items: flex-end;
+  }
+  
+  /* Add any additional styles for FlipMove or other elements here */
+  
+  

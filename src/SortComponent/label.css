@@ -1,0 +1,40 @@
+/* Container for alignment and spacing */
+.switch-label-container {
+    display: inline-flex;
+    align-items: center;
+    margin: 20px; /* Adjust spacing as needed */
+  }
+  
+  /* Label styling */
+  .switch-label-text {
+    position: relative;
+    padding-left: 25px; /* Adjust for checkbox and checkmark size */
+    cursor: pointer;
+    font-size: 20px ; /* Adjust font size as needed */
+    color: #333;
+  }
+  
+  /* Hide the default checkbox */
+  .switch-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer; /* Maintain interactivity */
+  }
+  
+  /* Checkmark styling */
+  .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 15px; /* Adjust for checkmark size */
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ccc; /* Inactive state color */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Checked state styling */
+  .switch-checkbox:checked + .checkmark {
+    background-color: #2196F3; /* Active state color */
+  }
+  

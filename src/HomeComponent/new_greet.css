@@ -1,0 +1,35 @@
+.algorithm-wonderland-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 20px 10px 10px 10px; /* Reduce margin to center the container horizontally */
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1;
+    padding: 40px; /* Increase padding for a larger content area */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .left-content {
+    max-width: 500px; /* Set a maximum width for the left content */
+  }
+  
+  .algorithm-image {
+    width: 100%; /* Set a specific width for the image */
+    height: 400px; /* Set a specific height for the image */
+    border-radius: 8px; /* Optional: Add some border-radius for a rounded appearance */
+    margin-left: auto; /* Align the image to the right by pushing it to the right margin */
+  }
+  /* .left-content h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+} */
+
+.left-content p {
+  font-size: 20px;
+  color: #503535;
+  line-height: 1.6;
+}

@@ -1,0 +1,44 @@
+/* slider.css */
+
+.slider-container {
+    margin: 10px;
+  }
+  
+  /* Style for the slider input */
+  .slider-container input[type="range"] {
+    width: 100%;
+    height: 5px;
+    -webkit-appearance: none;
+    background: #d3d3d3; /* Gray background */
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style for the thumb (slider handle) */
+  .slider-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #4caf50; /* Green thumb color */
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px; /* Adjust the vertical position of the thumb */
+  }
+  
+  /* Style for the slider track (filled part) */
+  .slider-container input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: #4caf50; /* Green track color */
+    border-radius: 5px;
+  }
+  
+  /* Style for the value display */
+  .slider-container p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  

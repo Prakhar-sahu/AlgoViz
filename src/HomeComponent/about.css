@@ -1,0 +1,54 @@
+/* AlgorithmVisualizerInfo.css */
+
+.algorithm-visualizer-info {
+    text-align: center;
+    padding: 30px;
+    background-color: #71b9e9;
+    color: #ecf0f1;
+    border-radius: 15px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #441d3e;
+  }
+  
+  p {
+    color: #3a4e5c;
+    font-size: 1.2em;
+  }
+  
+  .content {
+    background-color: #0a0a0a;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+  }
+  
+  .supported-algorithms {
+    margin-top: 20px;
+  }
+  
+  .supported-algorithms h2 {
+    color: #e74c3c;
+  }
+  
+  .supported-algorithms ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .supported-algorithms li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+  }
+  
+  /* Add more styles as needed */
+  

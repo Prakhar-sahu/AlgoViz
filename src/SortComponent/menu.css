@@ -1,0 +1,40 @@
+/* Menu.css */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 30px;
+    align-content: stretch;
+    justify-content: center;
+  }
+  nav > * {
+    margin: 5px; /* Adjust this value to set the minimum distance between elements */
+  }
+  
+  button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #5d90b3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #7f8c8d;
+    cursor: not-allowed;
+  }
+  
+  button:hover:enabled {
+    background-color: #2980b9;
+  }
+
+  
+  
+  /* Add any additional styles for your sliders, selects, etc. here */
+  
+  
