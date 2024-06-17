@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './navbar.module.css';
-
+import img from "./image.png"
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.logoContainer}>
-        <img src="https://th.bing.com/th/id/OIG.6_9HokRuX7nmM0KI38g_?w=1024&h=1024&rs=1&pid=ImgDetMain" 
+        <img src={img}
         alt="Logo" className={styles.logo} />
         <span className={styles.brand}>AlgoViz</span>
       </div>
