@@ -2,10 +2,18 @@
 
 Welcome to **AlgoViz**, a comprehensive and interactive tool designed to enhance your understanding of data structure algorithms and concepts through visualizations. Developed with React, AlgoViz provides dynamic and educational representations of various algorithms, making complex concepts more accessible and engaging.
 
+## 🌐 Live Demo
+
+Explore AlgoViz in action: [Visit AlgoViz](https://algo-viz-two.vercel.app/) <!-- Replace with your live website URL -->
+
+## 📸 Front Page
+
+ <!-- Replace 'assets/frontpage.png' with the path to your screenshot -->
+
 ## 🚀 Features
 
 - **Interactive Visualizations**: Explore algorithms through visual and interactive components.
-- **Wide Range of Algorithms**: Covers a variety of data structure and algorithm topics.
+- **Wide Range of Algorithms**: Covers a variety of data structures and algorithm topics.
 - **Educational Tool**: Designed to aid in learning and understanding fundamental computer science principles.
 
 ## 🔍 Supported Algorithms
@@ -81,7 +89,7 @@ For any questions or inquiries, please contact [Prakhar Sahu](mailto:jsahu2814@e
 
 ## 🌟 Acknowledgments
 
-Developed with passion and dedication. Enjoy exploring and learning with AlgoViz!
+Developed with passion and dedication. Enjoy exploring and learning with **AlgoViz**!
 
 ---
 
