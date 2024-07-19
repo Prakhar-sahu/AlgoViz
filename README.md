@@ -85,7 +85,7 @@ Feel free to contribute to AlgoViz! If you have suggestions, improvements, or ne
 
 ## 📧 Contact
 
-For any questions or inquiries, please contact [Prakhar Sahu](mailto:jsahu2814@example.com).
+For any questions or inquiries, please contact [Prakhar Sahu](mailto:jsahu2814@gmail.com).
 
 ## 🌟 Acknowledgments
 
