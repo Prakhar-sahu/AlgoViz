@@ -8,7 +8,7 @@ Explore AlgoViz in action: [Visit AlgoViz](https://algo-viz-two.vercel.app/) <!-
 
 ## 📸 Front Page
 
- <!-- Replace 'assets/frontpage.png' with the path to your screenshot -->
+ ![AlgoViz Front Page](front-page.png)<!-- Replace 'assets/frontpage.png' with the path to your screenshot -->
 
 ## 🚀 Features
 
