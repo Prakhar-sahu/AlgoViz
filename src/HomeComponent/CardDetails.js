@@ -16,7 +16,7 @@ export function getDetails(){
        {
            id:2,
            title:"Recursion Tree",
-           description:"The process in which a function calls itself directly or indirectly is called recursion. Work in progress",
+           description:"The process in which a function calls itself directly or indirectly is called recursion.",
            route:"/graph",
            img:Recursion
        },

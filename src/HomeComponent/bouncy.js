@@ -11,7 +11,7 @@ class Bouncy extends Component {
                 <span className="badge badge-dark">
                 <Typewriter
                     options={{
-                        strings: ['Graph Algorithms', 'Sorting Algorithms',"8 Queen"],
+                        strings: ['Graph Algorithms', 'Sorting Algorithms',"N Queens"],
                         autoStart: true,
                         loop: true,
                     }}
